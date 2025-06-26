@@ -2,3 +2,13 @@ ultralytics==8.0.203
 opencv-python==4.9.0.80
 numpy==1.26.4
 matplotlib==3.8.4
+
+JSON feature files are auto-generated after running the extractor.
+Match IDs are stored in outputs/player_id_mapping.json.
+Matched player IDs are overlaid on a selected video frame (sample_frame.jpg).
+Threshold for cosine similarity is configurable (default: 0.4).
+
+To Do (optional extensions)
+Integrate Deep SORT for better tracking ID continuity.
+Match players across different timestamps.
+Add web interface for visualization.
